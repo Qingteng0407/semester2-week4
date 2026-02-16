@@ -15,5 +15,10 @@
     Store your answer in d
     print your final answer
     */
+       d = 0.0; //一定要先initialize d，否则会得到一个随机值
+       for (int i = 0; i < 5; i++) {
+           d += a[i] * b[i];
+       }
+       printf("%.2f\n", d);//保留两位小数
     return 0;
  }
