@@ -22,6 +22,22 @@
     Store your answer in d
     print your final answer
     */
+      for (int i = 0; i < n; i++) {
+            a[i] = 1.0;
+            b[i] = 1.0;
+            d[i] = 0.0;
+      }
+
+    // compute dot product
+    for (int i = 0; i < n; i++) {
+         d[i] = a[i] * b[i];
+    }
+
+    // print final answer
+    for (int i = 0; i < n; i++) {
+         printf("%.2f ", d[i]);
+    }
+    printf("\n");
 
     // explicit deallocation of heap memory before exit */
     free(a);
