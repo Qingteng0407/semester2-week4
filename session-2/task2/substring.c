@@ -12,4 +12,16 @@
  5. implement the solution and compute the answer  
  6. print the answer appropriately as pointer, character and string
  */ 
+#include <stdio.h>
+#include <string.h>
 
+int main( void ) {
+     char str1[100] = "The quick brown fox jumped over the lazy dog";
+     char str2[100] = "ump";    
+        char *ptr;
+    ptr = strstr(str1, str2); // returns a pointer to the first occurrence of str2 in str1
+    printf("Pointer to substring: %p\n", ptr); // print the pointer
+    printf("Character at pointer: %c\n", *ptr); // print the character at the pointer
+    printf("Substring from pointer: %s\n", ptr); // print the substring
+    return 0;
+}

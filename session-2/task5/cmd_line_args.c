@@ -17,5 +17,5 @@ int main( int argc, char **argv ) {
     return 0;
 }
 
-// What is printed?
+// What is printed?./args 1 + 2 '*' 4
 // What form is the data?

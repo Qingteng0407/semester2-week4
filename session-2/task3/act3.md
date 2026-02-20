@@ -7,7 +7,15 @@ The format specifies 3 integers.
 Test the code for the following input:
 - 1 2 3
 - 1 2 a
+output:
+Read 1 values
+Values: 123 29961 1109698608
+
 - a 1 2
+output:
+a12
+Read 0 values
+Values: 933944048 29661 388242928
 - a
 
 scanf() will attempt to convert the data into the expected type in the defined order
