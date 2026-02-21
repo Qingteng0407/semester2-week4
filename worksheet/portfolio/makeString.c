@@ -24,7 +24,7 @@ int main( int argc, char **argv ) {
         if (len < 1 || len > 4) {
             return 1;
         }
-        
+
         printf("%s",argv[i]);
 
         if (i < n) {
@@ -32,6 +32,6 @@ int main( int argc, char **argv ) {
             }
     }
     
-    
+    printf("\n");
     return 0;
     }   
