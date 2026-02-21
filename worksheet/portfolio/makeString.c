@@ -20,11 +20,7 @@ int main( int argc, char **argv ) {
 
     for (int i = 1;i <= n; i++) {
         int len = strlen(argv[i]);
-
-        if (len < 1 || len > 4) {
-            return 1;
-        }
-
+        
         printf("%s",argv[i]);
 
         if (i < n) {
